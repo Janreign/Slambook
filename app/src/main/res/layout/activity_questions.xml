@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dreamy1">
+
+    <TextView
+        android:text="What do you like to do in your free time?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/answer1"
+        android:hint="Type here..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/question2"
+        android:text="What is your favorite TV show or movie?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/answer2"
+        android:hint="Type here..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/question3"
+        android:text="What do you like to do in your free time?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/answer3"
+        android:hint="Type here..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/question4"
+        android:text="What is your dream job?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/answer4"
+        android:hint="Type here..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/question5"
+        android:text="What is the most embarrassing moment you've ever had?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/answer5"
+        android:hint="Type here..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:id="@+id/question6"
+        android:text="What is something you've always wanted to do?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/answer6"
+        android:hint="Type here..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:id="@+id/question7"
+        android:text="What is your biggest fear?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/answer7"
+        android:hint="Type here..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/question8"
+        android:text="What is your favorite memory with me?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/answer8"
+        android:hint="Type here..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/question9"
+        android:text="What is your relationship status?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/spinner_relationship_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:spinnerMode="dropdown" />
+
+
+</LinearLayout>
